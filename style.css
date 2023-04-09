@@ -1,0 +1,93 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f44336;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+/* About section styles */
+#about {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 40px;
+}
+
+.profile-picture img {
+    max-width: 100%;
+}
+
+.profile-info {
+    overflow: hidden;
+}
+
+/* Experiences, Education, Skills, Interests, and Award section styles */
+section {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
